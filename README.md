@@ -5,12 +5,12 @@
 # 🎉 Curso Gratuito de Desenvolvimento Web
 
   </div>
-  
+
+## 😄 ‏‏‎ ‎‏‏‎ Estamos muito felizes que você chegou!
+
 - [Dê uma olhada nas notas deste curso](https://github.com/awarischool/webdev-curso-gratuito/tree/main/notas)
 - [Lembre-se de submeter seu PR do desafio final](https://github.com/awarischool/webdev-curso-gratuito/blob/main/notas/projeto-final.md)
 
-
-😄 ‏‏‎ ‎‏‏‎ Estamos muito felizes que você chegou!
 
 ## Cronograma
 
