@@ -35,7 +35,7 @@ O que você preccisa fazer é incluir suas próprias informações e abrir um Pu
 
 Em **`title`** você coloca seu nome ou o nome de seu blog. Usaremos este nome para ordenar a listagem no blog do curso. Em **`description`** você pode incluir dentro da string qualquer HTML válido! Em **`url`**, o endereço de seu blog criado e feito o deploy. E em **`color`**, uma propriedade de cor CSS que você goste / representa você.
 
-Condição de inclusão no PR é ter no footer, compartilhado o seguinte `snippet`, que renderiza uma imagem do logo da Awari e um link para a mesma:
+Condição de inclusão no PR é ter no footer, compartilhado o seguinte `snippet`, que renderiza uma imagem do logo da Awari e um link para o site:
 
 ```
   <Image 
