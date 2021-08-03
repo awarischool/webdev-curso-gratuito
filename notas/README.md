@@ -13,3 +13,8 @@
 - Instalar [VS Code](https://code.visualstudio.com/)
 - Instalar o [Pack de Extensões para desenvolvimento NextJS](https://marketplace.visualstudio.com/items?itemName=IbrahimCesar.ibrahimcesar-nextjs-developer-pack)
 - Instalar o [Node.js](https://nodejs.org/)
+
+# Notas aula 1
+
+- [Next.js no Windows](https://docs.microsoft.com/pt-br/windows/dev-environment/javascript/nextjs-on-wsl) - Documento de referência da própria Microsoft
+  - É recomendado pela mesma a [instalação do WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10), assim vão ter um ambiente UNIX no Windows
