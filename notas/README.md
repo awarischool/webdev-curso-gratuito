@@ -61,6 +61,7 @@
 
 ![1AGtr](https://user-images.githubusercontent.com/509054/128062410-1cc8d09c-4ea2-4a01-ad97-5add05a643ba.png)
 
+- Ainda outra opção de utilizar o **bash** no Windows, [neste tutorial](https://www.techtudo.com.br/dicas-e-tutoriais/noticia/2016/04/como-instalar-e-usar-o-shell-bash-do-linux-no-windows-10.html).
 - `pwd` - mostra em que diretório seu Terminal está
 - `node --version` ou `node -v` exibe a versão instalada do Node. Recomendada `>= 14.x`
 - `npm --version` ou `npm -v` exibe a versão do NPM. Recomendada `>= 6.x`
