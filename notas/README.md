@@ -43,6 +43,24 @@
 
 - [Next.js no Windows](https://docs.microsoft.com/pt-br/windows/dev-environment/javascript/nextjs-on-wsl) - Documento de referência da própria Microsoft
   - É recomendado pela mesma a [instalação do WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10), assim vão ter um ambiente UNIX no Windows
+- Outra alternativa para Windows é utilizar o bash integrado no próprio VS Code:
+  1. Instale o Git em https://git-scm.com/download/win
+  2. Abra o Código do Visual Studio e pressione e segure `Ctrl` + ```para abrir o terminal.
+
+![V4hx4](https://user-images.githubusercontent.com/509054/128062103-40a67421-c353-4568-b7fd-27752c619ff2.png)
+  
+  3. Abra a paleta de comandos usando `Ctrl`+ `Shif`t+ `P`.
+  4. Tipo - Selecione Shell Padrão
+  5. Selecione Git Bash nas opções
+  6. Clique no ícone + na janela do terminal
+  7. O novo terminal agora será um terminal Git Bash. Aguarde alguns segundos para carregar o Git Bash
+
+![5zLAP](https://user-images.githubusercontent.com/509054/128062295-aea71cda-19b0-4a1d-82f5-813a6c16cc35.png)
+
+  8. Agora você pode alternar entre os diferentes terminais e também no menu suspenso.
+
+![1AGtr](https://user-images.githubusercontent.com/509054/128062410-1cc8d09c-4ea2-4a01-ad97-5add05a643ba.png)
+
 - `pwd` - mostra em que diretório seu Terminal está
 - `node --version` ou `node -v` exibe a versão instalada do Node. Recomendada `>= 14.x`
 - `npm --version` ou `npm -v` exibe a versão do NPM. Recomendada `>= 6.x`
