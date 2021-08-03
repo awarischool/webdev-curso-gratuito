@@ -1,5 +1,7 @@
 # Código construído durante as aulas
 
+Se clonar este repositório basta entrar em `code/blog` e lá utilizar `npm install` e após isto, `npm run dev`, para rodar em modo de desenvolvimento.
+
 
 <div align="center">
 
