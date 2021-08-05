@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+body {
+  background-color: #C44D1c;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  grid-template-areas:
+    "Cabecalho Cabecalho Cabecalho Cabecalho"
+    "Article1 Section Section Aside"
+    "Article2 Section Section Aside"
+    "Footer Footer Footer Footer";
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  grid-area: Cabecalho;
+  border: 1px solid tomato;
+  background-color: #fff;
+  opacity: 1;
+}
+
+.articles {
+ /* opacity: 0.5; */
+}
+
+#article-1 {
+  grid-area: Article1;
+  border: 1px solid rebeccapurple;
+  background-color: rebeccapurple;
+}
+
+#article-2 {
+  grid-area: Article2;
+  border: 1px solid rebeccapurple;
+  background-color: rebeccapurple;
+}
+
+section {
+  grid-area: Section;
+  border: 1px solid turquoise;
+  background-color: #FEE240;
+  opacity: 1;
+}
+
+section div {
+  background-color: orange;
+  border: 1px dashed orchid;
+}
+
+section span {
+  color: #fff
+}
+
+aside {
+  grid-area: Aside;
+  border: 1px solid turquoise;
+  background-color: #E29C6D;
+  opacity: 0.5;
+}
+
+footer {
+  grid-area: Footer;
+  border: 1px solid #000;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+footer p {
+  color: #fff;
+}
+
