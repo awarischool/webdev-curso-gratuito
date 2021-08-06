@@ -72,3 +72,9 @@
 - `npm install react-markdown gray-matter react-syntax-highlighter` instala 3 dependências que iremos utilizar
 - `npm install  @types/react-syntax-highlighter -D`, instala os tipos que dependem uma das dependências
 - `npm run dev` roda a aplicação em modo de desenvolvimento
+
+# Notas aula 2
+- [Código HTML + CSS feitos na aula](https://github.com/awarischool/webdev-curso-gratuito/tree/main/code/html)
+- [Documentação de referência do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Documentação de referência do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Cores no CSS](http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors)
