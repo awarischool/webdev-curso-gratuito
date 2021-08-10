@@ -79,3 +79,6 @@
 - [Documentação de referência do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Cores no CSS](http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors)
 - [Anatomia de uma URL](https://ibrahimcesar.cloud/blog/anatomia-de-uma-url/)
+
+# Notas aula 3
+- [Submissão](https://github.com/awarischool/webdev-curso-gratuito/tree/main/code/html)
