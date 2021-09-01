@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  grid-template-areas:
+    "Cabecalho Cabecalho Cabecalho Cabecalho"
+    "Article1 Section Section Aside"
+    "Article2 Section Section Aside"
+    "Footer Footer Footer Footer";
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  grid-area: Cabecalho;
+  border: 1px solid rgb(219, 131, 30);
+  background-color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+
+#article-1 {
+  grid-area: Article1;
+  border: 1px solid rgb(219, 30, 30);
+  background-color: rgb(0, 0, 0);
+}
+
+#article-2 {
+  grid-area: Article2;
+  border: 1px solid rgb(219, 206, 30);
+  background-color: rgb(0, 0, 0);
+}
+
+section {
+  font-family: 'Nixie One', cursive;
+  font-size: 30px;
+  grid-area: Section;
+  border: 1px solid rgb(30, 106, 219);
+  background-color: #232323;
+  opacity: 1;
+}
+
+
+#feed{
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+
+aside {
+  grid-area: Aside;
+  border: 1px solid rgb(115, 219, 30);
+  background-color: #000000;
+
+}
+
+p,h3{
+  color: white;
+}
+h3::before,#feed::before{
+  content: '<';
+  color: #72bcda;
+}
+
+h3::after,#feed::after{
+  content: '>';
+  color: #72bcda;
+}
+
+#post{
+  line-height: 50px;
+}
+
+#post::first-letter{
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  
+  color: rgb(177, 87, 87);
+}
+
+footer {
+  grid-area: Footer;
+  border: 1px solid rgb(30, 219, 147);
+  background-color: rgb(41, 41, 41);
+}
+
+footer p {
+  color: #fff;
+}
+
