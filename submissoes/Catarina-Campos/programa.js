@@ -1,0 +1,1 @@
+console.log("🤖 O programa foi carregado");

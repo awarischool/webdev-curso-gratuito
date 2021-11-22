@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+body {
+  background-color: #f2acbf;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+  font-family: 'Georgia', serif;
+  grid-template-areas:
+    "Cabecalho Cabecalho Cabecalho Cabecalho"
+    "Article1 Section Section Aside"
+    "Article2 Section Section Aside"
+    "Footer Footer Footer Footer";
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  grid-area: Cabecalho;
+  border: 1px solid #acf2ba;
+  background-color: rgb(187, 95, 95);
+  opacity: 1;
+}
+
+.articles {
+  opacity: 0.8; 
+}
+
+#article-1 {
+  grid-area: Article1;
+  border: 1px solid #b54beb;
+  background-color: #b54beb;
+}
+
+#article-2 {
+  grid-area: Article2;
+  border: 1px solid #b54beb;
+  background-color: #b54beb;
+}
+
+section {
+  grid-area: Section;
+  border: 1px solid turquoise;
+  background-color:#ffdc85;
+  opacity: 1;
+}
+
+section div {
+  background-color:#ffaf7d;
+  border: 1px dashed #ff63e5;
+}
+
+section span {
+  color: #fff
+}
+
+aside {
+  grid-area: Aside;
+  border: 1px solid turquoise;
+  background-color: #acf2ba;
+  opacity: 0.5;
+}
+
+footer {
+  grid-area: Footer;
+  border: 1px solid #000;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+footer p {
+  color: #fff;
+}
