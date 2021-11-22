@@ -19,12 +19,12 @@ body {
 header {
   grid-area: Cabecalho;
   border: 1px solid #acf2ba;
-  background-color: #fff;
+  background-color: rgb(187, 95, 95);
   opacity: 1;
 }
 
 .articles {
- /* opacity: 0.5; */
+  opacity: 0.8; 
 }
 
 #article-1 {
