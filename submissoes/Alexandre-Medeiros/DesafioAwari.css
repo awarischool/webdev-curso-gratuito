@@ -1,0 +1,518 @@
+
+    * {
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 18px;
+        background-color: #1a1510fa;
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        color: #00ff7f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header {
+        background-color: #1a1510fa;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    #nav-bar {
+        top: 0px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: #1a1510fa;
+    }
+
+    #nav-bar ul {
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        height: 100%;
+    }
+
+    #nav-bar li {
+        padding-left: 12vw;
+    }
+
+    .logotype {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: auto;
+        margin-left: 9%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #dddddd;
+    }
+
+
+    #hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 88px;
+    }
+
+    #hero h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4vh;
+        width: 24vw;
+    }
+
+    #form #submit {
+        cursor: pointer;
+        color: #211b15;
+        background-color: #00ff7f;
+        border: none;
+        border-radius: 3px;
+        font-size: 1em;
+        font-weight: 800;
+        margin-top: 32px;
+        margin-bottom: 24px;
+        width: 16vw;
+        height: 32px;
+    }
+
+    #form #email {
+        border-radius: 3px;
+        border: none;
+        background-color: #dddddd;
+        width: 24vw;
+        height: 32px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main #pricing {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    #features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #features .info-row {
+        align-self: end;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+        padding-top: 10vh;
+        padding-bottom: 8vh;
+    }
+
+    #features h2 {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1.5em;
+        font-weight: 700;
+        width: 15vw;
+    }
+
+    #features .icon {
+        width: 10%;
+    }
+
+    #features #fire {
+        width: 64px;
+    }
+
+    #features p {
+        text-align: center;
+        color: #dddddd;
+        width: 80%;
+    }
+
+    .spacing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+    }
+
+
+    #how-it-works {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #how-it-works #video {
+        margin-top: 40px;
+        margin-bottom: 64px;
+        width: 60vw;
+        height: 60vh;
+        border: none;
+    }
+
+    #pricing .product {
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 370px;
+        width: 24vw;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 56px;
+    }
+
+    #pricing .rectangle {
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1a1510fa;
+        font-weight: 700;
+        font-size: 1.3em;
+        height: 48px;
+        width: 100%;
+    }
+
+    #pricing h2 {
+        width: auto;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    #pricing .btn {
+        cursor: pointer;
+        color: #211b15;
+        background-color: #00ff7f;
+        border: none;
+        border-radius: 3px;
+        font-size: 1em;
+        font-weight: 800;
+        width: 16vw;
+        height: 32px;
+        margin-bottom: 16px;
+    }
+
+    #pricing ul {
+        color: #dddddd;
+    }
+
+    #pricing li {
+        padding-bottom: 8px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-right: 16px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    footer ul li {
+        padding-right: 8px;
+    }
+
+    footer span {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-right: 8px;
+    }
+
+    @media (max-width: 2560px) {
+        #features p {
+            text-align: start;
+        }
+        #pricing li {
+            padding-bottom: 32px;
+        }
+    }
+
+    @media (max-width: 1366px) {
+        #features p {
+            text-align: center;
+        }
+    
+        #pricing h2 {
+            margin: 0px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+        }
+
+        #pricing li {
+            padding-bottom: 24px;
+        }
+        
+        #pricing .rectangle {
+            margin-top: -8px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 1051px) {
+        #nav-bar li {
+            padding-left: 5vw;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        #features .info-row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        #features p {
+            margin-top: 32px;
+            width: 100%;
+            text-align: start;
+        }
+
+        #features #fire {
+            width: 8px;
+        }
+    }
+
+    @media (max-width: 899px) {
+
+        #pricing h2 {
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+
+        #pricing .rectangle {
+            margin-top: 0px;
+        }
+
+        #pricing .product {
+            width: 26vw;
+            height: 350px;
+        }
+
+        #pricing li {
+            padding-bottom: 32px;
+        }
+
+        #pricing .btn {
+            height: 32px;
+        }
+    }
+
+    @media (max-width: 790px) {
+
+        #nav-bar li {
+            padding-left: 3vw;
+            width: auto;
+        }
+       
+
+        main #pricing {
+            flex-direction: column;
+        }
+
+        #pricing .product {
+            width: 36vw;
+        }
+
+        #how-it-works #video {
+            width: 65vw;
+        }
+
+        #features .info-row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        #form #email {
+            width: 30vw;
+        }
+
+        #form #submit {
+            width: 25vw;
+        }
+    }
+
+    @media (max-width: 670px) {
+        html {
+            font-size: 16px;
+        }
+
+        #features .info-row {
+            width: 90vw;
+        }
+
+        #how-it-works #video {
+            width: 65vw;
+        }
+
+        main #pricing {
+            flex-direction: column;
+        }
+
+        #pricing .product {
+            width: 40vw;
+        }
+
+        .logotype {
+            margin-left: 4%;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .logotype {
+            font-size: 10px;
+            width: 20vw;
+        }
+        #nav-bar {
+            justify-content: space-evenly;
+        }
+        #nav-bar ul {
+            font-size: 14px;
+            justify-content: flex-end;
+            width: 70%;
+            color: #c7c6c6       
+        }
+    }
+
+    @media (max-width: 530px) {
+        main {
+            align-items: center;
+            justify-content: center;
+        }
+
+        #form #email {
+            width: 40vw;
+        }
+
+        #form #submit {
+            width: 30vw;
+        }
+
+        #how-it-works #video {
+            width: 80vw;
+        }
+
+        #features .icon {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+
+        #features #fire {
+            width: 48px;
+        }
+
+        #features p {
+            width: 100%;
+        }
+
+        #features h2 {
+            margin-bottom: 16px;
+        }
+
+        #features .info-row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        #hero h2 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .spacing {
+            justify-content: flex-start;
+        }
+
+        main #pricing {
+            padding: 0px;
+            flex-direction: column;
+        }
+
+        #pricing .product {
+            width: 240px;
+        }
+
+        #pricing .btn {
+            width: 20vw;
+        }
+    }
+
+    @media (max-width: 375px) {
+        #form #email {
+            width: 50vw;
+        }
+
+        #form #submit {
+            width: 36vw;
+        }
+
+        footer {
+            margin: 0px;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 100%;
+            font-size: 0.9em;
+        }
+    }
