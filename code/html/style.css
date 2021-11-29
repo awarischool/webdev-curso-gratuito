@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 
 body {
-  background-color: #C44D1c;
+  background-color: #0d6681;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -19,8 +19,9 @@ body {
 header {
   grid-area: Cabecalho;
   border: 1px solid tomato;
-  background-color: #fff;
+  background-color: rgb(121, 218, 231);
   opacity: 1;
+  font-size: 30px;
 }
 
 .articles {
@@ -42,13 +43,13 @@ header {
 section {
   grid-area: Section;
   border: 1px solid turquoise;
-  background-color: #FEE240;
+  background-color: #a707e6;
   opacity: 1;
 }
 
 section div {
-  background-color: orange;
-  border: 1px dashed orchid;
+  background-color: rgb(212, 0, 212);
+  border: 1px dashed rgb(236, 0, 228);
 }
 
 section span {
@@ -64,12 +65,13 @@ aside {
 
 footer {
   grid-area: Footer;
-  border: 1px solid #000;
-  background-color: #000;
+  border: 1px solid rgb(246, 0, 0);
+  background-color: rgb(9, 150, 175);
   opacity: 0.5;
 }
 
 footer p {
   color: #fff;
+  font-size: 30px;
 }
 

@@ -1,4 +1,4 @@
-console.log("🤖 O programa foi carregado");
+console.log("🤖 O programa foi iniciado!");
 
 let pegarParametros = window.location.search;
 console.log("Parametros: ", pegarParametros);
